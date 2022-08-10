@@ -4,173 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_147.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parkingApplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/PagingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/ConflictException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/exception/RestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/PriceRateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/VehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/request/ParkingDetailRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/request/ParkingRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/request/PriceRateRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/request/VehicleRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/response/ParkingDetailResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/response/ParkingResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/response/PriceRateResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/dto/response/VehicleResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/mapper/ParkingDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/mapper/ParkingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/mapper/PriceRateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/mapper/VehicleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/CarClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Parking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/ParkingDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/PriceRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/ParkingDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/ParkingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/PriceRateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IPriceRateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IVehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/PriceRateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/BaseDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/PagingData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/ApiError$ApiSubError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/ApiError$ApiValidationError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/ApiError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/BadRequestException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/ConflictException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/ErrorDetails.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/LowerCaseClassNameResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/NotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/exception/RestExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/request/ParkingRequestDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/response/ParkingResponseDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/ParkingMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/ParkingMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/CarClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Parking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/PriceRate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/repository/ParkingRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/repository/PriceRateRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/repository/VehicleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/IParkingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/impl/ParkingService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/PriceRateMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/VehicleMapperImpl.java" afterDir="false" />
+    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +32,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="ProjectId" id="2D9ZdVZDuZlbySLRrPr44NSJrtD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -255,8 +96,17 @@
       <updated>1660113351357</updated>
       <workItem from="1660113352930" duration="8447000" />
       <workItem from="1660128036156" duration="5388000" />
-      <workItem from="1660134224428" duration="12601000" />
+      <workItem from="1660134224428" duration="17817000" />
+      <workItem from="1660159460195" duration="1212000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1660148851357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660148851357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,5 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

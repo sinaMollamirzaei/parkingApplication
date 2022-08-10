@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-08-10T17:14:13+0430",
+    date = "2022-08-10T21:19:17+0430",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.1 (Oracle Corporation)"
 )
 @Component
@@ -35,14 +35,14 @@ public class ParkingDetailMapperImpl implements ParkingDetailMapper {
         parkingDetail.setParking( parkingMapper.toParking( parkingDetailRequestDTO.getParkingRequestDTO() ) );
         parkingDetail.setVehicle( vehicleMapper.toVehicle( parkingDetailRequestDTO.getVehicleRequestDTO() ) );
         parkingDetail.setPriceRate( priceRateMapper.toPriceRate( parkingDetailRequestDTO.getPriceRateRequestDTO() ) );
+        parkingDetail.setTimeIn( toDate( parkingDetailRequestDTO.getTimeIn() ) );
+        parkingDetail.setTimeOut( toDate( parkingDetailRequestDTO.getTimeOut() ) );
         parkingDetail.setId( parkingDetailRequestDTO.getId() );
         parkingDetail.setVersion( parkingDetailRequestDTO.getVersion() );
         parkingDetail.setCreatedDate( parkingDetailRequestDTO.getCreatedDate() );
         parkingDetail.setCreatedBy( parkingDetailRequestDTO.getCreatedBy() );
         parkingDetail.setLastModifiedDate( parkingDetailRequestDTO.getLastModifiedDate() );
         parkingDetail.setLastModifiedBy( parkingDetailRequestDTO.getLastModifiedBy() );
-        parkingDetail.setTimeIn( parkingDetailRequestDTO.getTimeIn() );
-        parkingDetail.setTimeOut( parkingDetailRequestDTO.getTimeOut() );
 
         return parkingDetail;
     }
@@ -72,14 +72,15 @@ public class ParkingDetailMapperImpl implements ParkingDetailMapper {
         parkingDetailResponseDTO.setParkingResponseDTO( parkingMapper.toParkingResponseDTO( parkingDetail.getParking() ) );
         parkingDetailResponseDTO.setVehicleResponseDTO( vehicleMapper.toParkingResponseDTO( parkingDetail.getVehicle() ) );
         parkingDetailResponseDTO.setPriceRateResponseDTO( priceRateMapper.toPriceRateResponseDTO( parkingDetail.getPriceRate() ) );
+        parkingDetailResponseDTO.setTimeIn( toTimestamp( parkingDetail.getTimeIn() ) );
+        parkingDetailResponseDTO.setTimeOut( toTimestamp( parkingDetail.getTimeOut() ) );
         parkingDetailResponseDTO.setId( parkingDetail.getId() );
         parkingDetailResponseDTO.setVersion( parkingDetail.getVersion() );
         parkingDetailResponseDTO.setCreatedDate( parkingDetail.getCreatedDate() );
         parkingDetailResponseDTO.setCreatedBy( parkingDetail.getCreatedBy() );
         parkingDetailResponseDTO.setLastModifiedDate( parkingDetail.getLastModifiedDate() );
         parkingDetailResponseDTO.setLastModifiedBy( parkingDetail.getLastModifiedBy() );
-        parkingDetailResponseDTO.setTimeIn( parkingDetail.getTimeIn() );
-        parkingDetailResponseDTO.setTimeOut( parkingDetail.getTimeOut() );
+        parkingDetailResponseDTO.setFinalPrice( parkingDetail.getFinalPrice() );
 
         return parkingDetailResponseDTO;
     }

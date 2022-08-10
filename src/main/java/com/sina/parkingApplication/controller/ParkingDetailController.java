@@ -59,6 +59,13 @@ public class ParkingDetailController {
         return parkingDetailMapper.toParkingDetailResponseDTO(saved);
     }
 
+    @PutMapping(value="/calculate")
+    public ParkingDetailResponseDTO calculateFinalPrice(@RequestBody ParkingDetailRequestDTO parkingDetailRequestDTO) {
+        ParkingDetail parkingDetail = parkingDetailMapper.toParkingDetail(parkingDetailRequestDTO);
+        ParkingDetail saved = parkingDetailService.calculateFinalPrice(parkingDetail);
+        return parkingDetailMapper.toParkingDetailResponseDTO(saved);
+    }
+
     @DeleteMapping(value = "/{id}")
     public void deleteParkingDetail(@PathVariable Long id) {
         parkingDetailService.deleteParkingDetail(id);
