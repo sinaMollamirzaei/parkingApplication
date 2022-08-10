@@ -1,0 +1,1 @@
+package com.sina.parkingApplication.model;public enum CarClass {    SAVARI,TEJARI;}

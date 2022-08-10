@@ -1,0 +1,1 @@
+package com.sina.parkingApplication.dto.request;import com.sina.parkingApplication.common.BaseDTO;import io.swagger.annotations.ApiModelProperty;import lombok.Data;@Datapublic class ParkingRequestDTO extends BaseDTO {    @ApiModelProperty(required = true, hidden = false)    private Long basePrice;}
