@@ -22,7 +22,7 @@ public class ParkingDetailController {
     private final IParkingDetailService parkingDetailService;
     private final ParkingDetailMapper parkingDetailMapper;
 
-    @PostMapping
+    @PostMapping(value = "/enterRequest")
     public ParkingDetailResponseDTO addParkingDetail(@RequestBody ParkingDetailRequestDTO parkingDetailRequestDTO) {
         ParkingDetail parkingDetail = parkingDetailMapper.toParkingDetail(parkingDetailRequestDTO);
         ParkingDetail saved = parkingDetailService.registerRequest(parkingDetail);
@@ -53,17 +53,10 @@ public class ParkingDetailController {
         return parkingDetailMapper.toParkingDetailResponseDTO(parkingDetail);
     }
 
-    @PutMapping
+    @PutMapping("/exitRequest")
     public ParkingDetailResponseDTO updateParkingDetail(@RequestBody ParkingDetailRequestDTO parkingDetailRequestDTO) {
         ParkingDetail parkingDetail = parkingDetailMapper.toParkingDetail(parkingDetailRequestDTO);
         ParkingDetail saved = parkingDetailService.exitRequest(parkingDetail);
-        return parkingDetailMapper.toParkingDetailResponseDTO(saved);
-    }
-
-    @PutMapping(value = "/calculate")
-    public ParkingDetailResponseDTO calculateFinalPrice(@RequestBody ParkingDetailRequestDTO parkingDetailRequestDTO) {
-        ParkingDetail parkingDetail = parkingDetailMapper.toParkingDetail(parkingDetailRequestDTO);
-        ParkingDetail saved = parkingDetailService.calculateFinalPrice(parkingDetail);
         return parkingDetailMapper.toParkingDetailResponseDTO(saved);
     }
 
