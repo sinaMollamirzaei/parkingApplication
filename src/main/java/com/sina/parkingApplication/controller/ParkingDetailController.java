@@ -2,6 +2,7 @@ package com.sina.parkingApplication.controller;
 
 
 import com.sina.parkingApplication.common.PagingData;
+import com.sina.parkingApplication.common.SearchCriteria;
 import com.sina.parkingApplication.dto.request.ParkingDetailRequestDTO;
 import com.sina.parkingApplication.dto.response.ParkingDetailResponseDTO;
 import com.sina.parkingApplication.mapper.ParkingDetailMapper;
@@ -59,7 +60,7 @@ public class ParkingDetailController {
         return parkingDetailMapper.toParkingDetailResponseDTO(saved);
     }
 
-    @PutMapping(value="/calculate")
+    @PutMapping(value = "/calculate")
     public ParkingDetailResponseDTO calculateFinalPrice(@RequestBody ParkingDetailRequestDTO parkingDetailRequestDTO) {
         ParkingDetail parkingDetail = parkingDetailMapper.toParkingDetail(parkingDetailRequestDTO);
         ParkingDetail saved = parkingDetailService.calculateFinalPrice(parkingDetail);
@@ -69,5 +70,11 @@ public class ParkingDetailController {
     @DeleteMapping(value = "/{id}")
     public void deleteParkingDetail(@PathVariable Long id) {
         parkingDetailService.deleteParkingDetail(id);
+    }
+
+    @PostMapping("/search")
+    public List<ParkingDetailResponseDTO> search(@RequestBody List<SearchCriteria> searchCriteria) {
+        List<ParkingDetail> parkingDetailList = parkingDetailService.search(searchCriteria);
+        return parkingDetailMapper.toParkingDetailResponseDTOList(parkingDetailList);
     }
 }

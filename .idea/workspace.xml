@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="first commit">
+    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="add calculateController and some features.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/SearchCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/common/SearchOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/specification/ParkingDetailSpecification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/ParkingDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/repository/ParkingDetailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/PriceRateMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/PriceRateMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/VehicleMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/VehicleMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -97,7 +105,9 @@
       <workItem from="1660113352930" duration="8447000" />
       <workItem from="1660128036156" duration="5388000" />
       <workItem from="1660134224428" duration="17817000" />
-      <workItem from="1660159460195" duration="1212000" />
+      <workItem from="1660159460195" duration="2389000" />
+      <workItem from="1660200848483" duration="717000" />
+      <workItem from="1660206621912" duration="6008000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1660148851357</created>
@@ -106,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660148851357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add calculateController and some features.">
+      <created>1660165492253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660165492253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add calculateController and some features." />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculateController and some features." />
   </component>
 </project>
