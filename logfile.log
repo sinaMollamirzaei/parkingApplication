@@ -1,0 +1,45 @@
+2022-08-12 15:53:56.077  INFO 11676 --- [main] com.sina.parkingApplication.Application  : Starting Application using Java 17.0.1 on DESKTOP-8QC21NO with PID 11676 (C:\Users\sina\IdeaProjects\parkingApplication\target\classes started by sina in C:\Users\sina\IdeaProjects\parkingApplication)
+2022-08-12 15:53:56.082  INFO 11676 --- [main] com.sina.parkingApplication.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-12 15:53:57.178  INFO 11676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 15:53:57.328  INFO 11676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 4 JPA repository interfaces.
+2022-08-12 15:53:58.110  INFO 11676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-12 15:53:58.122  INFO 11676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-12 15:53:58.123  INFO 11676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-12 15:53:58.378  INFO 11676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-12 15:53:58.378  INFO 11676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2217 ms
+2022-08-12 15:53:58.596  INFO 11676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 15:53:58.670  INFO 11676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-12 15:53:58.825  INFO 11676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 15:53:58.934  INFO 11676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-12 15:53:59.137  INFO 11676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-12 15:53:59.161  INFO 11676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-12 15:53:59.221  INFO 11676 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-08-12 15:54:01.068  INFO 11676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 15:54:01.077  INFO 11676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 15:54:01.657  WARN 11676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 15:54:03.023  INFO 11676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-12 15:54:03.041  INFO 11676 --- [main] com.sina.parkingApplication.Application  : Started Application in 7.7 seconds (JVM running for 9.102)
+2022-08-12 16:18:04.177  INFO 11676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:18:04.179  INFO 11676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-12 16:18:04.188  INFO 11676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-12 16:18:10.144  INFO 428 --- [main] com.sina.parkingApplication.Application  : Starting Application using Java 17.0.1 on DESKTOP-8QC21NO with PID 428 (C:\Users\sina\IdeaProjects\parkingApplication\target\classes started by sina in C:\Users\sina\IdeaProjects\parkingApplication)
+2022-08-12 16:18:10.152  INFO 428 --- [main] com.sina.parkingApplication.Application  : No active profile set, falling back to 1 default profile: "default"
+2022-08-12 16:18:11.293  INFO 428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-12 16:18:11.400  INFO 428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 4 JPA repository interfaces.
+2022-08-12 16:18:11.977  INFO 428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-12 16:18:11.986  INFO 428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-12 16:18:11.987  INFO 428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-12 16:18:12.184  INFO 428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-12 16:18:12.184  INFO 428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1898 ms
+2022-08-12 16:18:12.376  INFO 428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-12 16:18:12.450  INFO 428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-12 16:18:12.595  INFO 428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-12 16:18:12.705  INFO 428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-12 16:18:12.879  INFO 428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-12 16:18:12.894  INFO 428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-12 16:18:12.942  INFO 428 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-08-12 16:18:14.698  INFO 428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-12 16:18:14.707  INFO 428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-12 16:18:15.269  WARN 428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-12 16:18:16.399  INFO 428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-12 16:18:16.416  INFO 428 --- [main] com.sina.parkingApplication.Application  : Started Application in 7.181 seconds (JVM running for 8.76)

@@ -4,11 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="add SearchCriteria to parkingDetail. fix bug to calculate finalPrice.">
+    <list default="true" id="77af6bf4-1f99-43e2-a56b-8f6eaca6e967" name="Changes" comment="fix some bugs">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_envers_5_6_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/SearchCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/common/SearchOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/controller/ParkingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/controller/ParkingDetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/controller/PriceRateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/controller/VehicleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/request/ParkingDetailRequestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/request/PriceRateRequestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/request/VehicleRequestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/response/ParkingDetailResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/response/PriceRateResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/dto/response/VehicleResponseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/ParkingDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/PriceRateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/PriceRateMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/VehicleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/mapper/VehicleMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/ParkingDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/repository/ParkingDetailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/IParkingDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/IPriceRateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/IVehicleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/impl/ParkingDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/impl/PriceRateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/service/impl/VehicleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/specification/ParkingDetailSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_21.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/controller/ParkingDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/IParkingDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parkingApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/ParkingDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/ParkingDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/PriceRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/PriceRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/model/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sina/parkingApplication/service/impl/ParkingDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Parking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Parking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/PriceRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/PriceRate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sina/parkingApplication/model/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingDetailMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/ParkingMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/PriceRateMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/PriceRateMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/VehicleMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/sina/parkingApplication/mapper/VehicleMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +72,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -34,6 +89,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="sinaBranch" />
+                    <option name="lastUsedInstant" value="1660305086" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1660305085" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="2D9ZdVZDuZlbySLRrPr44NSJrtD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,6 +129,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -100,7 +179,8 @@
       <workItem from="1660159460195" duration="2389000" />
       <workItem from="1660200848483" duration="717000" />
       <workItem from="1660206621912" duration="14721000" />
-      <workItem from="1660224784381" duration="2275000" />
+      <workItem from="1660224784381" duration="3567000" />
+      <workItem from="1660294199911" duration="4014000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1660148851357</created>
@@ -123,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660213692055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix some bugs">
+      <created>1660228383456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660228383456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +221,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -146,6 +245,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add calculateController and some features." />
     <MESSAGE value="add SearchCriteria to parkingDetail. fix bug to calculate finalPrice." />
-    <option name="LAST_COMMIT_MESSAGE" value="add SearchCriteria to parkingDetail. fix bug to calculate finalPrice." />
+    <MESSAGE value="fix some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
   </component>
 </project>
